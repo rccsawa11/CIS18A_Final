@@ -7,4 +7,3 @@ with the flow chart as an image and project reflections, program goals, function
 including the strengths and weaknesses of the program and my outlook for program future improvement. 
 
 
-The zip file is also attached. 
