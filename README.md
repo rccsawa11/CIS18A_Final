@@ -1,3 +1,4 @@
+This project was not completed. 
 Project's Title: Mobile Nail Services 
 
 Project Description:
@@ -26,3 +27,4 @@ Include Credits:
 https://www.youtube.com/watch?v=xk4_1vDrzzo 
 
 There was a video clip for most Java aspects and all of the learning objectives are also found in the playlist showing a step by step process. 
+
