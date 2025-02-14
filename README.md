@@ -2,8 +2,11 @@ Project's Title: Mobile Nail Services
 
 Project Description:
 -What is it: This is a project I made for my CIS18A (Java Objects) class at Moreno Valley College. The project reflects all of the learning objectives of the class learned. 
+
 -What this program does: This program was made to schedule appointments online for customers to book nail beauty services that offer at-home services. 
+
 -What technologies I used: I did use an IDE- Micorsoft's Visual Studio Code 
+
 -Some features I hope to implement in the future: I hope that in the future, I can make this program more effiecent.
 Some examples include: by allowing clients to book multiple services at once and go back to be able to edit or cancel their appointment,
 as well as offering dates to book up to 2 months in advance. Addtionally,
@@ -19,6 +22,8 @@ How to Install and Run the Project:
 
 Include Credits: 
 -Refreneced "sofiavaldes" README guide on how to write a good README: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/.
+
 -Unit 3-5 Notes from CIS18A with Dr. Nguyen (those are her notes).
+
 -Used the 12 hour tutorial playlist "Java Full Course for Free" by "Bro Code" on youtube to help me make code to meet rubric requirements to implement into my program: 
 https://www.youtube.com/watch?v=xk4_1vDrzzo 
