@@ -7,10 +7,7 @@ Project Description:
 
 -What technologies I used: I did use an IDE- Micorsoft's Visual Studio Code 
 
--Some features I hope to implement in the future: I hope that in the future, I can make this program more effiecent.
-Some examples include: by allowing clients to book multiple services at once and go back to be able to edit or cancel their appointment,
-as well as offering dates to book up to 2 months in advance. Addtionally,
-perhaps having some visuals for clients to look at to make their decision more percise on how they want their services to be done. 
+-Some features I hope to implement in the future:In the future, to improve this program for efficiency, the program will offer multiple services per booking. Additionally, since this is a mobile service that is at the customers home, in future implementations gas prices will be evaluated and charges extra for services depending on the distances- 40 miles distance and under will be no charge, 41 and above will be charged gas price for mpg. In real life situations people are charged extra for at-home services the further they are. Also allowing clients to book multiple services at once and go back to be able to edit or cancel their appointment, as well as offering dates to book up to 2 months in advance. Additionally, perhaps having some visuals for clients to look at to make their decision more precise on how they want their services to be done 
 
 The branches:
 -I have included 2 addtional branches to the repository that includes the flow chart I made using Draw.io and the commit history to it,
