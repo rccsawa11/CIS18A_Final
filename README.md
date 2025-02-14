@@ -23,7 +23,9 @@ How to Install and Run the Project:
 Include Credits: 
 -Refreneced "sofiavaldes" README guide on how to write a good README: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/.
 
--Unit 3-5 Notes from CIS18A with Dr. Nguyen (those are her notes).
+-Unit 3-5 Notes from CIS18A with Dr. Nguyen (her notes based on the textbook).
 
 -Used the 12 hour tutorial playlist "Java Full Course for Free" by "Bro Code" on youtube to help me make code to meet rubric requirements to implement into my program: 
 https://www.youtube.com/watch?v=xk4_1vDrzzo 
+
+There was a video clip for most Java aspects and all of the learning objectives are also found in the playlist showing a step by step process. 
