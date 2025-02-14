@@ -1,2 +1,116 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import java.util.Scanner;
+
+interface Booking 
+{
+    void bookServce(); //This is the method that will book the service
+}
+
+interface PaymentForm
+{
+    void processPaymentType(); //This is the method that will process way the client wants to pay
+}
+
+class Service implements Booking 
+ { 
+    //This is the Super Class and it will implement booking interface
+    String name; //The name of the service -> instance variable
+    double cost; //The cost of the service -> instance variable
+
+    public Service(String name, double cost) //This is the constructor for the service class
+    {
+        name = serviceName; //This will assign the name of the service 
+        cost = serviceCost;// This will assign the cost of the service
+    }
+
+    public void bookSerice() 
+    {   //This method will book the service 
+        System.out.println("This service has been booked for: " + name + " and the cost is: " + cost + " $");
+        ;//This will print out the name of the service and the cost of the service
+    }
+
+
+}
+
+class Pedicure extends Service 
+{
+    ;//This is the subclass pedicure that inhereted from super class Service
+    String name = "Pedicure"; //Setting the name of service
+    double cost = 30.00; //Setting the cost of sercice
+
+    public void bookService() 
+    {
+        System.out.println("This service has been booked for: " + name + " and the cost is: " + cost + " $");
+    }
+
+}
+
+class Manicure extends Service 
+{
+    //This is the subclass manicure that inhereted from super class Service
+    String name = "Manicure"; //Setting the name of service
+    double cost = 25.00; //Setting the cost of sercice
+
+    public void bookService() 
+    {
+        System.out.println("This service has been booked for: " + name + " and the cost is: " + cost + " $");
+    }
+}
+
+class AcrylicNails extends Service 
+{
+    //This is the subclass AcrylicNails that inhereted from super class Service
+    String name = "Acrylic Nails"; //Setting the name of service
+    double cost = 80.00; //Setting the cost of sercice
+
+    public void bookService() 
+    {
+        System.out.println("This service has been booked for: " + name + " and the cost is: " + cost + " $");
+    }
+}
+
+class Payment implements PaymentForm
+{
+  
+  public void processPaymentType(String method)
+  {
+    if (method.equals("cash"))
+    {
+        System.out.println("You chose to pay with cash. The nail tech will bring change.");
+    }
+    else if (method.equals("card"))
+    {
+        System.out.println("You chose to pay with card. Nail tech will bring the card reader.");
+    }
+    else 
+    {
+        System.out.println("You input an invalid payment method. Please try again.");
+    }
+  }
+
+}
+
+public class NailServiceBooking
+{
+    public static void main(String args[])
+    {
+        Scanner scanner = new Scanner(System.in);
+
+        //This will ask the client who they are booking for 
+
+        System.out.println("Welcome to 's Mobile Nails Services. Who will be booked for today? Please insert the name of the client.");
+        String clientName = scanner.nextLine();
+
+        ;//This array is the avaliable services which are from the subclasses' variables
+
+        Service[] services = { new Pedicure(), new Manicure(), new AcrylicNails() };
+
+        String[] dates = {"Monday, Feb 19th", "Tuesday, Feb 20th", "Wednesday, Feb 21st", "Thursday, Feb 22nd", "Friday, Feb 23rd", "Saturday, Feb 24th", "Sunday, Feb 25th"};
+
+        System.out.println("Hi " + clientName + ". Which of the following servieces will you be booking with us?"); //This will ask the client which service they want to book
+        for ( int i = 0; i < services.length; i++)
+        {
+
+        }
+    }
+}
+
